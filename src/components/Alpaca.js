@@ -56,6 +56,8 @@ const Alpaca = () => {
 		});
 	}
 
+	const { backgrounds, accessories, ears, hair, eyes, mouth, neck, leg } = alpacaStyle;
+
 	return (
 		<StyledMain className="main">
 			<h1>ALPACA GENERATOR</h1>
@@ -63,11 +65,11 @@ const Alpaca = () => {
 				<StyledDivLeft>
 					<StyledDiv
 						style={{
-							background: `url(${alpacaStyle.backgrounds})`,
+							background: `url(${backgrounds})`,
 						}}
 					>
 						<img
-							src={alpacaStyle.accessories}
+							src={accessories}
 							alt="accessories"
 							className="accessories"
 						/>
@@ -77,31 +79,35 @@ const Alpaca = () => {
 							className="nose"
 						/>
 						<img
-							src={alpacaStyle.ears}
+							src={ears}
 							alt="ear"
 							className="ears"
 						/>
 						<img
-							src={alpacaStyle.hair}
+							src={hair}
 							alt="hair"
 							className="hair"
 						/>
 						<img
-							src={alpacaStyle.eyes}
+							src={eyes}
 							alt="eyes"
 							className="eyes"
 						/>
 						<img
-							src={alpacaStyle.mouth}
+							src={mouth}
 							alt="mouth"
 							className="mouth"
 						/>
 						<img
-							src={alpacaStyle.neck}
+							src={neck}
 							alt="neck"
 							className="neck"
 						/>
-						<img src={alpacaStyle.leg} alt="leg" className="leg" />
+						<img 
+							src={leg} 
+							alt="leg" 
+							className="leg" 
+						/>
 					</StyledDiv>
 
 					<ButtonsDiv>
