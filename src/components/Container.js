@@ -2,11 +2,11 @@ import styled from "styled-components";
 import DivLeft from "./DivLeft";
 import DivRight from "./DivRight";
 
-function Container ({dataAlpaca, dataRight, dataLeft}) {
+function Container ({dataalpaca, dataright, dataleft}) {
     return (
         <StyleContainerS>
-            <DivLeft dataAlpaca={dataAlpaca} dataLeft={dataLeft} />
-            <DivRight {...dataRight} />
+            <DivLeft dataalpaca={dataalpaca} {...dataleft} />
+            <DivRight {...dataright} />
         </StyleContainerS>
     )
 }

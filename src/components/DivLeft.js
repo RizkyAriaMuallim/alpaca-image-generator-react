@@ -1,8 +1,8 @@
 import styled from "styled-components";
 import ButtonsDiv from "./ButtonsDiv";
 
-function DivLeft ({ data, randomAlpaca, download }) {
-    const { backgrounds, accessories, ears, hair, eyes, mouth, neck, leg } = data;
+function DivLeft ({ dataalpaca, randomAlpaca, download }) {
+    const { backgrounds, accessories, ears, hair, eyes, mouth, neck, leg } = dataalpaca;
     return (
         <StyledDivLeft>
             <StyledDiv
@@ -83,7 +83,7 @@ const StyledDiv = styled.div`
 		position: absolute;
 		top: 11px;
 		left: 11px;
-		z-index: 4;
+		z-index: 3;
 	}
 	.ears {
 		position: absolute;

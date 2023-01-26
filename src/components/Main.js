@@ -1,12 +1,14 @@
 import styled from "styled-components";
 import Container from "./Container";
 
-function Main ({dataAlpaca, dataRight, dataLeft}) {
+function Main ({dataalpaca, dataright, dataleft}) {
     return (
-		<StyledMain>
-            <h1>ALPACA GENERATOR</h1>
-			<Container dataAlpaca={dataAlpaca} dataRight={dataRight} dataLeft={dataLeft}  />
-		</StyledMain>
+		<>
+			<StyledMain className="main">
+				<h1>ALPACA GENERATOR</h1>
+				<Container dataalpaca={dataalpaca} dataright={dataright} dataleft={dataleft}  />
+			</StyledMain>
+		</>
 	)
 }
 export default Main;
