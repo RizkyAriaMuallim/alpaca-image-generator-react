@@ -15,12 +15,21 @@ export default Main;
 
 const StyledMain = styled.main`
 	padding: 32px;
-	background-color: #eeecee;
 	text-align: center;
 	height: 100%;
+
+	animation: animateBg 5s linear infinite;
+	background-image: linear-gradient(0deg,#0080ff,#388363,#fcf8d6,#0080ff,#388363);
+	background-size: 100% 400%;
+
+	@keyframes animateBg {
+		0% { background-position: 0% 100%; }
+		100% { background-position: 0% 0%; }
+	}
 
 	h1 {
 		font-size: 2.5rem;
 		margin-bottom: 32px;
+		color: #eeecee;
 	}
 `;

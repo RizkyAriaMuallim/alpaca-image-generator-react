@@ -16,8 +16,10 @@ const StyleButtonsDiv = styled.div`
 	display: flex;
 	gap: 16px;
 	justify-content: center;
-
+	
 	button {
 		padding: 16px;
+		border-radius: 32px;
+		border: 1px solid blue;
 	}
 `;
