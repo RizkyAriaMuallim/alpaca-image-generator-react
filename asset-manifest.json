@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/RizkyAriaMuallim/alpaca-image-generator-react/static/css/main.5e1ac0a8.css",
-    "main.js": "/RizkyAriaMuallim/alpaca-image-generator-react/static/js/main.5ff8bc70.js",
-    "index.html": "/RizkyAriaMuallim/alpaca-image-generator-react/index.html",
-    "main.5e1ac0a8.css.map": "/RizkyAriaMuallim/alpaca-image-generator-react/static/css/main.5e1ac0a8.css.map",
-    "main.5ff8bc70.js.map": "/RizkyAriaMuallim/alpaca-image-generator-react/static/js/main.5ff8bc70.js.map"
+    "main.css": "/alpaca-image-generator-react/static/css/main.5e1ac0a8.css",
+    "main.js": "/alpaca-image-generator-react/static/js/main.cffbdfc9.js",
+    "index.html": "/alpaca-image-generator-react/index.html",
+    "main.5e1ac0a8.css.map": "/alpaca-image-generator-react/static/css/main.5e1ac0a8.css.map",
+    "main.cffbdfc9.js.map": "/alpaca-image-generator-react/static/js/main.cffbdfc9.js.map"
   },
   "entrypoints": [
     "static/css/main.5e1ac0a8.css",
-    "static/js/main.5ff8bc70.js"
+    "static/js/main.cffbdfc9.js"
   ]
 }
